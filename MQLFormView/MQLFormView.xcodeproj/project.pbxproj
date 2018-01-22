@@ -13,6 +13,8 @@
 		02DA80C02015ADC900EAA1D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02DA80BF2015ADC900EAA1D1 /* Assets.xcassets */; };
 		02DA80C32015ADC900EAA1D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02DA80C12015ADC900EAA1D1 /* LaunchScreen.storyboard */; };
 		02DA80C62015ADC900EAA1D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DA80C52015ADC900EAA1D1 /* main.m */; };
+		02DA80CF2015AE2E00EAA1D1 /* MQLFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DA80CE2015AE2E00EAA1D1 /* MQLFormView.m */; };
+		02DA80D22015AE6600EAA1D1 /* MQLFormCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DA80D12015AE6600EAA1D1 /* MQLFormCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		02DA80C22015ADC900EAA1D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02DA80C42015ADC900EAA1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02DA80C52015ADC900EAA1D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02DA80CD2015AE2E00EAA1D1 /* MQLFormView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQLFormView.h; sourceTree = "<group>"; };
+		02DA80CE2015AE2E00EAA1D1 /* MQLFormView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQLFormView.m; sourceTree = "<group>"; };
+		02DA80D02015AE6600EAA1D1 /* MQLFormCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQLFormCell.h; sourceTree = "<group>"; };
+		02DA80D12015AE6600EAA1D1 /* MQLFormCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQLFormCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		02DA80B52015ADC900EAA1D1 /* MQLFormView */ = {
 			isa = PBXGroup;
 			children = (
+				02DA80CC2015AE1200EAA1D1 /* FormView */,
 				02DA80B62015ADC900EAA1D1 /* AppDelegate.h */,
 				02DA80B72015ADC900EAA1D1 /* AppDelegate.m */,
 				02DA80B92015ADC900EAA1D1 /* ViewController.h */,
@@ -69,6 +76,17 @@
 				02DA80C52015ADC900EAA1D1 /* main.m */,
 			);
 			path = MQLFormView;
+			sourceTree = "<group>";
+		};
+		02DA80CC2015AE1200EAA1D1 /* FormView */ = {
+			isa = PBXGroup;
+			children = (
+				02DA80CD2015AE2E00EAA1D1 /* MQLFormView.h */,
+				02DA80CE2015AE2E00EAA1D1 /* MQLFormView.m */,
+				02DA80D02015AE6600EAA1D1 /* MQLFormCell.h */,
+				02DA80D12015AE6600EAA1D1 /* MQLFormCell.m */,
+			);
+			path = FormView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02DA80D22015AE6600EAA1D1 /* MQLFormCell.m in Sources */,
 				02DA80BB2015ADC900EAA1D1 /* ViewController.m in Sources */,
+				02DA80CF2015AE2E00EAA1D1 /* MQLFormView.m in Sources */,
 				02DA80C62015ADC900EAA1D1 /* main.m in Sources */,
 				02DA80B82015ADC900EAA1D1 /* AppDelegate.m in Sources */,
 			);
