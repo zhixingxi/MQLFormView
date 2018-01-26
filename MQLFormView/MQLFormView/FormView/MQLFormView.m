@@ -76,8 +76,8 @@ static NSString *const MQL_formCellId = @"MQL_formCell";
 - (UICollectionView *)formView {
     if (!_formView) {
         UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
-        layout.minimumLineSpacing = 0.000f;
-        layout.minimumInteritemSpacing = 0.000f;
+        layout.minimumLineSpacing = -0.0000000000001f;
+        layout.minimumInteritemSpacing = -0.0000000000001f;
         _formView = [[UICollectionView alloc]initWithFrame:self.bounds collectionViewLayout:layout];
         [_formView registerClass:[MQLFormCell class] forCellWithReuseIdentifier:MQL_formCellId];
         _formView.showsVerticalScrollIndicator = NO;
